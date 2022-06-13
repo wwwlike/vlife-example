@@ -1,0 +1,88 @@
+[
+  {
+    "entityName": "Area",
+    "title": "地区",
+    "tags": {
+      "areaCode": {
+        "fieldName": "areaCode",
+        "title": "地区编码"
+      },
+      "areaName": {
+        "fieldName": "areaName",
+        "title": "地区名称"
+      }
+    }
+  },
+  {
+    "entityName": "Role",
+    "title": "角色",
+    "tags": {
+      "code": {
+        "fieldName": "code",
+        "title": "角色编码"
+      },
+      "roleName": {
+        "fieldName": "roleName",
+        "title": "角色名称"
+      }
+    }
+  },
+  {
+    "entityName": "RoleUser",
+    "title": "角色用户",
+    "tags": {
+      "roleId": {
+        "fieldName": "roleId",
+        "title": "角色"
+      },
+      "userId": {
+        "fieldName": "userId",
+        "title": "用户"
+      }
+    }
+  },
+  {
+    "entityName": "Unit",
+    "title": "单位",
+    "tags": {
+      "areaId": {
+        "fieldName": "areaId",
+        "title": "单位所在地区"
+      },
+      "unitcode": {
+        "fieldName": "unitcode",
+        "title": "机构编码"
+      },
+      "name": {
+        "fieldName": "name",
+        "title": "单位名称"
+      }
+    }
+  },
+  {
+    "entityName": "User",
+    "title": "用户信息",
+    "tags": {
+      "joinDate": {
+        "fieldName": "joinDate",
+        "title": "入职日期"
+      },
+      "name": {
+        "fieldName": "name",
+        "title": "姓名"
+      },
+      "unitId": {
+        "fieldName": "unitId",
+        "title": "单位"
+      },
+      "tel": {
+        "fieldName": "tel",
+        "title": "联系电话"
+      },
+      "idno": {
+        "fieldName": "idno",
+        "title": "证件号码"
+      }
+    }
+  }
+]
