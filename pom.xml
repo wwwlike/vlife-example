@@ -28,7 +28,7 @@
         <dependency>
             <groupId>io.github.wwwlike</groupId>
             <artifactId>vlife-spring-boot-starter</artifactId>
-            <version>1.0.2-SNAPSHOT</version>
+            <version>1.0.2</version>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>
@@ -83,10 +83,12 @@
                     </execution>
                 </executions>
             </plugin>
+
+
             <plugin>
                 <groupId>io.github.wwwlike</groupId>
                 <artifactId>vlife-plugin</artifactId>
-                <version>1.0.2-SNAPSHOT</version>
+                <version>1.0.2</version>
                 <configuration>
                     <entityPackages>cn.wwwlike.example.entity</entityPackages>
                 </configuration>
@@ -98,6 +100,16 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+                </configuration>
             </plugin>
         </plugins>
     </build>
