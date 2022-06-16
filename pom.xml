@@ -28,7 +28,7 @@
         <dependency>
             <groupId>io.github.wwwlike</groupId>
             <artifactId>vlife-spring-boot-starter</artifactId>
-            <version>1.0.2</version>
+            <version>1.0.3</version>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>
@@ -88,7 +88,7 @@
             <plugin>
                 <groupId>io.github.wwwlike</groupId>
                 <artifactId>vlife-plugin</artifactId>
-                <version>1.0.2</version>
+                <version>1.0.3</version>
                 <configuration>
                     <entityPackages>cn.wwwlike.example.entity</entityPackages>
                 </configuration>
